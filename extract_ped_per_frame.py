@@ -11,6 +11,7 @@ from utils.utils import *
 from torchvision.transforms import transforms as T
 from utils.datasets import LoadImages, JointDataset, collate_fn
 
+
 def extract_ped_per_frame(
         cfg,
         input_root,
