@@ -36,6 +36,7 @@ from track import eval_seq
 
 logger.setLevel(logging.INFO)
 
+
 def track(opt):
     result_root = opt.output_root if opt.output_root!='' else '.'
     mkdir_if_missing(result_root)
